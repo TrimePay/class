@@ -59,7 +59,7 @@ class Trimepay {
 	 * @return  Array
 	 */
 	public function create($data){
-        return $this->post($data, $this->preUri);
+        	return $this->post($data);
 	}
 	
 	/*
